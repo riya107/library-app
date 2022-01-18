@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+p{
+    font-size: 60px;
+    color:rgb(78, 10, 10);
+    text-align: center;
+    margin-top: 250px;
+}
+
+body{
+    background-color:antiquewhite;
+}

@@ -1,0 +1,16 @@
+This is a simple library book issue and return system project
+
+It uses HTML, CSS, Javascript and Python Flask 
+
+It has following options:
+1.My Collection-> Stores all the books taken by user
+
+2.Books-> Shows all the books present in library
+          User can take the book from library by filling his/her
+          Credentials in the form
+
+3.Sign Up-> To make the account of user
+
+4.Contact Us-> Displays the contact info
+
+***This project uses json files to store the data****

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style_signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <p>Sign Up</p>
+    <form action="{{url_for('thank_you')}}" method="POST">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email">
+    </div>
+    <div>
+        <label for="user">Username</label>
+        <input type="text" name="Username" id="user">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="Password" id="password">
+    </div>
+        <input type="submit" value="submit" id="submit">
+    </form>
+</body>
+</html>

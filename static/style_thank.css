@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#head{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+}
+body{
+    background-color:antiquewhite;
+}
+#para{
+    text-align: center;
+    font-size: 40px;
+}

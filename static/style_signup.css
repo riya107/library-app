@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+form div{
+    margin: 10px;
+}
+
+input{
+    padding: 5px;
+    font-size: 15px;
+    position: absolute;
+    left: 719px;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Patrick Hand', cursive;
+    color:white;
+    text-shadow: 4px 4px 2px black;;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+}
+
+form{
+    margin: auto;
+    width:500px;
+}
+
+#submit{
+    background-color: crimson;
+    color:white;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Patrick Hand', cursive;   
+    font-size: 50px;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
+#submit:hover{
+    background-color: red;
+}
+
+p::before{
+    content:"";
+    background: url("../static/sign_bg.png") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+label{
+    position: relative;
+    top:-8px;
+    left: 20px;
+    font-weight: 800;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Patrick Hand', cursive;
+    text-shadow: 4px 4px 2px white;
+}

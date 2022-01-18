@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    background-color: antiquewhite;
+}
+
+#Contact{
+    color:crimson;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 170px;
+}
+#Number{
+    font-size: 35px;
+    text-align: center;
+}
+#Email{
+    font-size: 35px;
+    text-align: center;
+}
+
+#Address{
+    font-size: 35px;
+    text-align: center;
+}

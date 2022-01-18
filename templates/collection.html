@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style_collection.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    {%block user_block%}
+    {%endblock%}
+    {%if('Books' not in user)%}
+    <div class="para">You have not taken any book from library!</div>
+    {%elif(user['Books'] | length==0)%}
+    <div class="para">You have not taken any book from library!</div>
+    {%else%}
+    <div id="head">
+        Your Books:
+    </div>
+    <div class="books">
+    {%for book in user['Books']%}
+    <div class="book">
+    <div class="name"><span>Book:</span>{{book}}</div>
+    <div class="author"><span>Author:</span>{{user['Books'][book]['Author']}}</div>
+    <div class="idate"><span>Issue Date:</span>{{user['Books'][book]['Issue Date']}}</div>
+    <div class="ddate"><span>Due Date:</span>{{user['Books'][book]['Due Date']}}</div>
+    {%block return_book%}
+    {%endblock%}
+</div>
+    {%endfor%}
+</div>
+    {%endif%}
+    <script src="../static/script_collection.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+{
+    "Food Recipes":[
+        {
+            "Name":"Kitchen Secrets",
+            "Author":"Sanjeev Kapoor"
+        },
+        {
+            "Name":"My Great Indian Cookbook",
+            "Author":"Vikas Khanna"
+        },
+        {
+            "Name":"Everyone Can Cook",
+            "Author":"Vikas Khanna"
+        },
+        {
+            "Name":"Khazana Of Indian Vegetarian Recipes",
+            "Author":"Sanjeev Kapoor"
+        },
+        {
+            "Name":"Come Into My Kitchen",
+            "Author":"Ranveer Brar"
+        }
+    ],
+    "Mathematics":[
+        {
+            "Name":"PLANE TRIGONOMETRY Part-1",
+            "Author":"SL Loney"            
+        },
+        {
+            "Name":"Higher Algebra",
+            "Author":"Hall & Knight"
+        },
+        {
+            "Name":"Differential Calculus For Beginners",
+            "Author":"Joseph Edwards"
+        },
+        {
+            "Name":"Linear Algebra Done Right",
+            "Author":"Sheldon Axler"
+        },
+        {
+            "Name":"Humble Pi: A Comedy of Maths Errors",
+            "Author":"Matt Parker"
+        }
+    ],
+    "Physics":[
+        {
+            "Name":"Relativity: The Special and the General Theory",
+            "Author":"Albert Einstein"
+        },
+        {
+            "Name":"Problems In GENERAL PHYSICS",
+            "Author":"IE Irodov"
+        },
+        {
+            "Name":"Physics Galaxy",
+            "Author":"Ashish Arora"
+        },
+        {
+            "Name":"Concept of Physics Part-I",
+            "Author":"H.C. Verma"
+        },
+        {
+            "Name":"Applied Physics for Engineers",
+            "Author":"Dr. P.K. Diwan"
+        }
+    ],
+    "Chemistry":
+    [
+        {
+            "Name":"Chemistry for Engineers",
+            "Author":"Dr. Rajesh Agnihotri"
+        },
+        {
+            "Name":"FUNDAMENTAL OF ANALYTICAL CHEMISTRY",
+            "Author":"Dr. B.B.L. Srivastva"
+        },
+        {
+            "Name":"Handbook of Chemistry",
+            "Author":"Arihant Experts"
+        },
+        {
+            "Name":"Problems in Physical Chemistry for JEE",
+            "Author":"Narendra Avasthi"
+        },
+        {
+            "Name":"Engineering Chemistry: Fundamentals and Applications",
+            "Author":"Shikha Agarwal"
+        }
+    ],
+    "Biology":[
+        {
+            "Name":"Cell Biology",
+            "Author":"P.S. Verma"
+        },
+        {
+            "Name":"The Biology Book",
+            "Author":"Michael C. Gerald"
+        },
+        {
+            "Name":"Elementary Biology",
+            "Author":"K.N. Bhatia"
+        },
+        {
+            "Name":"Advanced Biology",
+            "Author":"Michael Kent"
+        },
+        {
+            "Name":"Molecular Biology and Biotechnology",
+            "Author":"K.G. Ramawat"
+        }
+    ],
+    "Novels":[
+        {
+            "Name":"The Blue Umbrella",
+            "Author":"Ruskin Bond"
+        },
+        {
+            "Name":"The Pilgrims Progress",
+            "Author":"John Bunyan"
+        },
+        {
+            "Name":"Robinson Crusoe",
+            "Author":"Daniel Defoe"
+        },
+        {
+            "Name":"Gullivers Travels",
+            "Author":"Jonathan Swift"
+        },
+        {
+            "Name":"The Things We Cannot Say",
+            "Author":"Kelly Rimmer"
+        }
+    ],
+    "Ancient India":[
+        {
+            "Name":"Mudrarakshasa",
+            "Author":"Visakdatta"
+        },
+        {
+            "Name":"Rajtarangini",
+            "Author":"Kalhana"
+        },
+        {
+            "Name":"Kathasaritsagar",
+            "Author":"Somdeva"
+        },
+        {
+            "Name":"Buddha charita",
+            "Author":"Asvaghosa"
+        },
+        {
+            "Name":"Natyashastra",
+            "Author":"Bharata"
+        }
+    ],
+    "Action":[
+        {
+            "Name":"The Atlantis Gene",
+            "Author":"A.G. Riddle"
+        },
+        {
+            "Name":"Follow The Course! An Action Book",
+            "Author":"Alonzo Phillips"
+        },
+        {
+            "Name":"The President's Daughter",
+            "Author":"Bill Clinton"
+        },
+        {
+            "Name":"The Girl That Had To Be Strong",
+            "Author":"Garima Pradhan"
+        },
+        {
+            "Name":"Realm of Ruins",
+            "Author":"Hannah West"
+        }
+    ],
+    "Fantasy":[
+        {
+            "Name":"The Lord Of The Rings",
+            "Author":"J.R.R. Tolkien"
+        },
+        {
+            "Name":"The Lies Of Lock Lamora",
+            "Author":"Scott Lynch"
+        },
+        {
+            "Name":"The Last Unicorn",
+            "Author":"Peter S. Beagle"
+        },
+        {
+            "Name":"Mistborn",
+            "Author":"Brandon Sanderson"
+        },
+        {
+            "Name":"Tigana",
+            "Author":"Guy Gavriel Kay"
+        }
+    ],
+    "Devotional":[
+        {
+            "Name":"Shri Shiv Mahapuran",
+            "Author":"Pt. Keval Krishna shastri"
+        },
+        {
+            "Name":"Hindi Christian Song Book",
+            "Author":"Anand Vishwas"
+        },
+        {
+            "Name":"Dwarka Ki Sthapana",
+            "Author":"Manu Sharma"
+        },
+        {
+            "Name":"SHRI RAM CHARIT MANAS",
+            "Author":"Goswami Tulsidas"
+        },
+        {
+            "Name":"Bhagavad Gita",
+            "Author":"Veda Vyasa"
+        }
+    ]
+}

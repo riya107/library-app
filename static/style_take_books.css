@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.take{
+    margin-top: 10px;
+    background-color: crimson;
+    color:white;
+    margin-left: 20px;
+    width:100px;
+    border-radius: 15px;
+}
+
+.take:hover{
+    background-color: red;
+}
+
+li{
+    list-style: none;
+}
+button{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: lightgrey;
+}
+.books{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:33px;
+    left: 258px;
+    flex-wrap: wrap;
+}
+.book{
+    width:300px;
+    background-color: #dbd2d2d4;
+    margin:10px 20px;
+    border:4px solid rgba(119, 12, 12, 0.575);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.name{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.author{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.book span{
+    font-size: 30px;
+    color:rgb(119, 12, 12);
+    font-weight: 800;
+}
+
+
+.not_avail{
+    text-align: center;
+    font-size: 60px;
+    width: 700px;
+    position: absolute;
+    top:100px;
+    left: 400px;
+}
+
+form{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    flex-direction: column;
+}
+form div{
+    margin: 10px;
+}
+input{
+    padding: 5px;
+    font-size: 15px;
+}
+
+p{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: crimson;
+    color:white;
+    font-size: 34px;
+    margin-left: 20px;
+    width:100px;
+    border-radius: 15px;
+}
+
+#submit:hover{
+    background-color: red;
+}
+
+.credentials{
+    position: absolute;
+    top:-200px;
+    right: 100px;
+}
+
+#para{
+    color:wheat;
+    text-shadow: 4px 4px 2px black;
+}
+
+label{
+    color:black;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.take_book::before{
+    content:"";
+    background: url("../static/books_bg.png") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+.take_book{
+    background-color: #ff57226b;
+    color: #3b3b5e;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    background-color: antiquewhite;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(95, 12, 12);
+}
+#sorry{
+    margin-top: 200px;
+    font-size: 60px;
+    color:rgb(95, 12, 12);
+}
+
